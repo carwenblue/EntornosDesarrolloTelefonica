@@ -1,3 +1,0 @@
-este sera usado para cambiar datos
-estos son cambios para segundo commit
-check out master
