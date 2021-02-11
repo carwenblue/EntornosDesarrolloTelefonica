@@ -15,7 +15,7 @@ public class Main {
 
 			Scanner sc = new Scanner(System.in);
 
-			System.out.println("Elige la operacion que vas a realizar:\n-Multiplicar 2 numeros decimales(pulsa 1)");
+			System.out.println("Elige la operacion que vas a realizar:\n-Multiplicar dos numeros decimales(pulsa 1)");
 			int opm = sc.nextInt();
 			switch (opm) {
 			case 1: {
