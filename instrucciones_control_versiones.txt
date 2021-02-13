@@ -1,0 +1,98 @@
+COMANDOS PARA COLABORAR ENTRE REPOSITORIO LOCAL Y REMOTO:
+
+- Nos situamos en la carpeta WorkspaceGit y en la zona vacía de la barra ponemos cmd para abrir consola.
+
+- Para añadir un archivo al stage
+
+git add NOMBRE_ARCHIVO.extension
+
+- Para ver en qué rama estoy 
+
+git branch
+
+- Para crear nueva rama 
+
+git checkout -b NOMBRE
+
+- Para comprobar en qué rama estoy
+
+git checkout NOMBRE_RAMA
+
+- Para versionar lo que hay en el stage
+
+git commit -m "descripción"
+
+- Para ver el historial de commit
+
+git log
+
+- Para ver qué tenemos en el stage
+
+git status
+
+- Para mandar el archivo a repo remoto
+
+git push -u origin master
+(siendo "push" subir a remoto, "-u" el recordatorio para que siempre sea de origin a master, "origin" el nombre del repo remoto y "master" el nombre de la rama que queremos subir )
+
+-Para clonar el repo remoto
+
+git clone URL_REPO_REMOTO.git
+
+- Para bajar los cambios que hayan hecho otros compañeros a nuestra versión
+
+git pull
+
+- Para unir los cambios de mi versión y los del repo remoto
+
+git merge NOMBRE_MI_RAMA
+
+-Para conectar el repo local al repositorio remoto, una vez creado el repositorio en github (la primera vez?)
+
+git remote add origin URL_REPO_REMOTO.git
+(siendo "origin" el nombre o alias por defecto que le da git al repo remoto)
+
+-Para eliminar archivos de nuestro workspace
+
+git restore NOMBRE_ARCHIVO.extension
+
+git restore
+(para borrar todo)
+
+- Para eliminar archivos de nuestro stage
+
+git restore --staged NOMBRE_FICHERO
+
+-Para ir a cualquier commit a ver foto de nuestro proyecto
+
+git checkout CODIGO_HASH
+(el código lo podemos ver al hacer git log)
+
+-Para ver todos los commits de mi proyecto, por defecto solo te muestra desde el commit al que estes apuntando para atras
+
+git log --all
+
+-Para ir al último commit
+
+git checkout master
+
+-Para ver los cambios de nuestro repositorio local con nuestro workspace (?)
+
+git diff
+
+- Para hacernos una idea generica de nuestro repositorio a nivel de commits, se nos abré un programa de git visual.
+
+gitk
+
+EN ORDEN
+
+Una vez tenemos creado nuestro workspace local(es una carpeta con un nombre) nos situamos alli.
+Abrimos la consola con cmd en espacio vacío de la barra 
+Con git init lo conectamos a git
+Una vez tenemos la cuenta de git hub con el repo remoto
+Conectamos el repo local a remoto con git remote add origin URL_REPO_REMOTO.git
+
+....continuará
+
+
+
