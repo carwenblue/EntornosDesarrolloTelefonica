@@ -2,6 +2,7 @@ package calculadora;
 
 import java.util.Scanner;
 
+
 /**
  * Miembros del equipo
  * 
@@ -9,8 +10,8 @@ import java.util.Scanner;
  * @author Juan Ramón Varó
  * @author Daniel del Rio Perez
  * @author Verónica Bonis Martín
- * @since 17/02/2021
- * @version 2.2
+ * @since 23/01/2021
+ * @version 2.1
  * @see Suma
  * @see Resta
  * @see Producto
@@ -21,14 +22,16 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println(
-				"--Bienvenido a la aplicacion calculadora--\n *Elige una opcion:\n\t-Sumar(pulsa tecla S)\n\t-Multiplicar(pulsa tecla M)\n\t-Dividir (pulsa tecla D)");
+		System.out.println("--Bienvenido a la aplicacion calculadora--\n *Elige una opcion:\n\t-Sumar(pulsa tecla S)\n\t-Multiplicar(pulsa tecla M)");
 		System.out.println();
 
 		Scanner op = new Scanner(System.in);
 		String opcion = op.next();
 
+		
+
 		switch (opcion) {
+		
 
 		case "s": {
 			System.out.println(
@@ -127,14 +130,7 @@ public class Main {
 				break;
 
 			}
-
-			default: {
-				System.out.println("Tecla errónea : Comienza de nuevo ");
-
 			}
-			}
-
-			break;
 		}
 
 		case "m": {
@@ -182,11 +178,11 @@ public class Main {
 			case 3: {
 
 				try {
-					System.out.println("Introduce primer numero real a multiplicar (n1)");
+					System.out.println("Introduce primer numero entero a multiplicar (n1)");
 					double n1 = sc_m.nextDouble();
-					System.out.println("Introduce segundo numero real a multiplicar (n2)");
+					System.out.println("Introduce segundo numero entero a multiplicar (n2)");
 					double n2 = sc_m.nextDouble();
-					System.out.println("Introduce tercer numero real a multiplicar (n3)");
+					System.out.println("Introduce tercer numero entero a multiplicar (n3)");
 					double n3 = sc_m.nextDouble();
 					double resultado = Producto.producto(n1, n2, n3);
 					System.out.println("El resultado de la operacion es " + resultado);
@@ -214,102 +210,15 @@ public class Main {
 				catch (Exception e) {
 					System.out.println("Error en el número");
 				}
-			}
-
-			default: {
-				System.out.println("Tecla errónea : Comienza de nuevo ");
-
-			}
-			}
-		}
-			break;
-
-		case "d": {
-			System.out.println(
-					"Elige la operación que vas a realizar:\n-Dividir dos numeros reales(pulsa 1)\n-Dividir dos números enteros(pulsa 2)\n-Calcula el inverso de un número real(pulsa 3)\n-Calcula la raíz cuadrada de un número(pulsa 4)");
-
-			Scanner sc_d = new Scanner(System.in);
-			int opm = sc_d.nextInt();
-			switch (opm) {
-
-			case 1: {
-				try {
-					System.out.println("Introduce el dividendo - número real - (n1)");
-					double n1 = sc_d.nextDouble();
-					System.out.println("Introduce el divisor - número real-  (n2)");
-					double n2 = sc_d.nextDouble();
-					double resultado = Cociente.cociente(n1, n2);
-					System.out.println("El resultado de la operacion es " + resultado);
-				}
-
-				catch (Exception e) {
-					System.out.println("Error en el número");
-				}
-
-			}
-				break;
-
-			case 2: {
-				try {
-					System.out.println("Introduce el dividendo - número entero - (n1)");
-					int n1 = sc_d.nextInt();
-					System.out.println("Introduce el divisor- número entero - (n2)");
-					int n2 = sc_d.nextInt();
-					int resultado = Cociente.cociente(n1, n2);
-					System.out.println("El resultado de la operacion es " + resultado);
-				}
-
-				catch (Exception e) {
-					System.out.println("Error en el número");
-				}
-
-			}
-				break;
-
-			case 3: {
-
-				try {
-					System.out.println("Introduce el número real (n1)");
-					double n1 = sc_d.nextDouble();
-					double resultado = Cociente.inverso(n1);
-					System.out.println("El resultado de la operacion es " + resultado);
-
-				} catch (Exception e) {
-					System.out.println("Error en el número");
-
-				}
-
-			}
 
 				break;
 
-			case 4: {
-
-				try {
-					System.out.println("Introduce el número real (n1)");
-					double n1 = sc_d.nextDouble();
-					double resultado = Cociente.raiz(n1);
-					System.out.println("El resultado de la operacion es " + resultado);
-				}
-
-				catch (Exception e) {
-					System.out.println("Error en el número");
-				}
-
-				break;
 			}
-			default: {
-				System.out.println("Tecla errónea : Comienza de nuevo ");
 
-			}
-			}
+		    }
 		}
 
-			break;
-		default:
-			System.out.println("Tecla errónea : Comienza de nuevo ");
-
-		}
+        }
 
 	}
 
