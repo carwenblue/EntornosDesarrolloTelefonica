@@ -2,7 +2,6 @@ package calculadora;
 
 import java.util.Scanner;
 
-
 /**
  * Miembros del equipo
  * 
@@ -22,16 +21,14 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("--Bienvenido a la aplicacion calculadora--\n *Elige una opcion:\n\t-Sumar(pulsa tecla S)\n\t-Multiplicar(pulsa tecla M)\n\t-Dividir (pulsa tecla D)");
+		System.out.println(
+				"--Bienvenido a la aplicacion calculadora--\n *Elige una opcion:\n\t-Sumar(pulsa tecla S)\n\t-Multiplicar(pulsa tecla M)\n\t-Dividir (pulsa tecla D)");
 		System.out.println();
 
 		Scanner op = new Scanner(System.in);
 		String opcion = op.next();
 
-		
-
 		switch (opcion) {
-		
 
 		case "s": {
 			System.out.println(
@@ -130,7 +127,14 @@ public class Main {
 				break;
 
 			}
+
+			default: {
+				System.out.println("Tecla errónea : Comienza de nuevo ");
+
 			}
+			}
+
+			break;
 		}
 
 		case "m": {
@@ -210,12 +214,15 @@ public class Main {
 				catch (Exception e) {
 					System.out.println("Error en el número");
 				}
+			}
 
-				break;
+			default: {
+				System.out.println("Tecla errónea : Comienza de nuevo ");
 
 			}
 			}
 		}
+			break;
 
 		case "d": {
 			System.out.println(
@@ -290,12 +297,18 @@ public class Main {
 				}
 
 				break;
+			}
+			default: {
+				System.out.println("Tecla errónea : Comienza de nuevo ");
 
 			}
 			}
-		}	
-		
-		
+		}
+
+			break;
+		default:
+			System.out.println("Tecla errónea : Comienza de nuevo ");
+
 		}
 
 	}
