@@ -6,8 +6,9 @@ package calculadora;
  * @author Verónica Bonis Martín
  * @since 17/02/2021
  * @version 2.0
- * 
- * @see Calculadora
+ * @see Suma
+ * @see resta
+ * @see Producto
  */
 
 
@@ -29,10 +30,15 @@ package calculadora;
 			if (n1==0)
 				return 0;
 			if (n2==0)
-				System.out.println("El resultado no se puede mostrar porque tiende a infinito");
+				System.out.println("No se permite 0");
+			else {
+				return (n1/n2);//divide el primer número real entre el segundo real
+			}
 			
 			return (n1 / n2);// divide el primer número real entre el segundo real
 		}
+		
+		
 
 		/**
 		 * Este método divide dos números enteros.<br>Casos especiales:
@@ -64,10 +70,14 @@ package calculadora;
 		public static double inverso(double n1) {
 			
 		    //casos especiales
-			if (n1==0)
-				System.out.println("El resultado no se puede mostrar porque tiende a infinito");
 			
-			return 1 / n1; // calcula el inverso del número real  n1
+			if (n1==0) 
+				System.out.println("No se permite 0");
+			else {
+			
+				return 1 / n1; // calcula el inverso del número real  n1
+			}
+			return 1/n1; // calcula el inverso del número real  n1
 		}
 
 		/**

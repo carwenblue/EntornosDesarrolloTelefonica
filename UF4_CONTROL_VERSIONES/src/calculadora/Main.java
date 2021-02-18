@@ -6,13 +6,13 @@ import java.util.Scanner;
  * Miembros del equipo
  * 
  * @author M.Carmen Correa Heras
- * @author Juan RamÃ³n VarÃ³
- * @author Daniel del Rio Perez
- * @author VerÃ³nica Bonis MartÃ­n
+ * @author Juan Ramón Varó
+ * @author Daniel del Río Pérez
+ * @author Verónica Bonis Martín
  * @since 17/02/2021
  * @version 2.2
  * @see Suma
- * @see Resta
+ * @see resta
  * @see Producto
  * @see Cociente
  * 
@@ -26,7 +26,7 @@ public class Main {
 		do {
 
 		System.out.println(
-				"--Bienvenido a la aplicacion calculadora--\n *Elige una opcion:\n\t-Sumar (pulsa tecla S)\n\t-Restar (pulsa tecla R)\n\t-Multiplicar (pulsa tecla M)\n\t-Dividir (pulsa tecla D)");
+				"--Bienvenido a la aplicación calculadora--\n *Elige una opción:\n\t-Sumar (pulsa tecla S)\n\t-Restar (pulsa tecla R)\n\t-Multiplicar (pulsa tecla M)\n\t-Dividir (pulsa tecla D)");
 		System.out.println();
 
 		Scanner op = new Scanner(System.in);
@@ -36,7 +36,7 @@ public class Main {
 
 		case "s": {
 			System.out.println(
-					"Elige la operacion que vas a realizar:\n-Sumar dos numeros decimales(pulsa 1)\n-Sumar tres numeros decimales(pulsa 2)\n-Sumar dos numeros enteros(pulsa 3)\n-Mostrar la suma acumulada(pulsa 4)");
+					"Elige la operación que vas a realizar:\n-Sumar dos números decimales(pulsa 1)\n-Sumar tres números decimales(pulsa 2)\n-Sumar dos números enteros(pulsa 3)\n-Mostrar la suma acumulada(pulsa 4)");
 
 			Scanner sc = new Scanner(System.in);
 			int opm = sc.nextInt();
@@ -49,11 +49,11 @@ public class Main {
 					System.out.println("Introduce segundo numero a sumar (n2)");
 					double n2 = sc.nextDouble();
 					double resultado_2d = Suma.sumar(n1, n2);
-					System.out.println("El resultado de la operacion es " + resultado_2d);
+					System.out.println("El resultado de la operación es " + resultado_2d);
 					
 
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 			}
 				break;
@@ -61,19 +61,19 @@ public class Main {
 			case 2: {
 
 				try {
-					System.out.println("Introduce primer numero a sumar (n1)");
+					System.out.println("Introduce primer número a sumar (n1)");
 					double n1 = sc.nextDouble();
-					System.out.println("Introduce segundo numero a sumar (n2)");
+					System.out.println("Introduce segundo número a sumar (n2)");
 					double n2 = sc.nextDouble();
-					System.out.println("Introduce tercer numero a sumar (n3)");
+					System.out.println("Introduce tercer número a sumar (n3)");
 					double n3 = sc.nextDouble();
 					double resultado_3d = Suma.sumar(n1, n2, n3);
-					System.out.println("El resultado de la operacion es " + resultado_3d);
+					System.out.println("El resultado de la operación es " + resultado_3d);
 
 					
 
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 
 				}
 
@@ -84,17 +84,17 @@ public class Main {
 			case 3: {
 
 				try {
-					System.out.println("Introduce primer numero a sumar (n1)");
+					System.out.println("Introduce primer número a sumar (n1)");
 					double n1 = sc.nextDouble();
-					System.out.println("Introduce segundo numero a sumar (n2)");
+					System.out.println("Introduce segundo número a sumar (n2)");
 					double n2 = sc.nextDouble();
 					double resultado_2e = Suma.sumar(n1, n2);
-					System.out.println("El resultado de la operacion es " + resultado_2e);
+					System.out.println("El resultado de la operación es " + resultado_2e);
 
 					
 
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 				break;
@@ -103,13 +103,13 @@ public class Main {
 
 			case 4: {
 				try {
-					System.out.println("Introduce un numero a guardar");
+					System.out.println("Introduce un número a guardar");
 					double numAcum = sc.nextDouble();
 					double sumaAcumulada = Suma.sumarAcumulado(numAcum);
-					System.out.println("El nÃºmero guardado es: " + sumaAcumulada);
+					System.out.println("El número guardado es: " + sumaAcumulada);
 
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 				break;
@@ -122,29 +122,23 @@ public class Main {
 		case "r": {
 
 			System.out.println(
-					"Elige operacion a realizar:\n-Restar dos numeros decimales(pulsa 1)\n-Resta dos numeros enteros(pulsa 2)\n-Resta tres numeros decimales(pulsa 3)\n-Mostrar el acumulado de las restas(pulsa 4)");
-			Scanner sc = new Scanner(System.in);
+					"Elige operación a realizar:\n-Restar dos números decimales(pulsa 1)\n-Resta dos números enteros(pulsa 2)\n-Resta tres números decimales(pulsa 3)\n-Mostrar el acumulado de las restas(pulsa 4)");
+			Scanner sc_r = new Scanner(System.in);
 
-			int opm = sc.nextInt();
+			int opm = sc_r.nextInt();
 
 			switch (opm) {
 
 			case 1: {
 				try {
-					System.out.println("Introduce el primer numero a restar (n1)");
-					double n1 = sc.nextDouble();
-					System.out.println("Introduce el segundo numero a restar (n2)");
-					double n2 = sc.nextDouble();
+					System.out.println("Introduce el primer número a restar (n1)");
+					double n1 = sc_r.nextDouble();
+					System.out.println("Introduce el segundo número a restar (n2)");
+					double n2 = sc_r.nextDouble();
 
-					if (n1 < 0 || n2 < 0) {
-						System.out.println("No se permiten nÃºmeros negativos");
-					} else {
-						double resRestaReal2digit = Suma.sumar(n1, n2);
-						System.out.println("El resultado de la resta es " + resRestaReal2digit);
-					}
 
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 			}
@@ -153,20 +147,14 @@ public class Main {
 			case 2: {
 
 				try {
-					System.out.println("Introduce primer numero entero a restar (n1)");
-					int n1 = sc.nextInt();
-					System.out.println("Introduce segundo numero entero a restar (n2)");
-					int n2 = sc.nextInt();
+					System.out.println("Introduce primer número entero a restar (n1)");
+					int n1 = sc_r.nextInt();
+					System.out.println("Introduce segundo número entero a restar (n2)");
+					int n2 = sc_r.nextInt();
 
-					if (n1 < 0) {
-						System.out.println("No se permiten nÃºmeros negativos");
-					} else {
-						double resRestaEntera = resta.restar(n1, n2);
-						System.out.println("El resultado de la resta es " + resRestaEntera);
-					}
-
+					
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 				break;
@@ -176,22 +164,16 @@ public class Main {
 			case 3: {
 
 				try {
-					System.out.println("Introduce primer numero a restar (n1)");
-					double n1 = sc.nextDouble();
-					System.out.println("Introduce segundo numero a restar (n2)");
-					double n2 = sc.nextDouble();
-					System.out.println("Introduce tercer numero a restar (n3)");
-					double n3 = sc.nextDouble();
+					System.out.println("Introduce primer número a restar (n1)");
+					double n1 = sc_r.nextDouble();
+					System.out.println("Introduce segundo número a restar (n2)");
+					double n2 = sc_r.nextDouble();
+					System.out.println("Introduce tercer número a restar (n3)");
+					double n3 = sc_r.nextDouble();
 
-					if (n1 < 0 || n2 < 0) {
-						System.out.println("No se permiten nÃºmeros negativos");
-					} else {
-						double resRestaReal3digit = resta.restar(n1, n2, n3);
-						System.out.println("El resultado de la resta es " + resRestaReal3digit);
-					}
 
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 
 				}
 
@@ -201,18 +183,12 @@ public class Main {
 
 			case 4: {
 				try {
-					System.out.println("Introduce un numero a guardar");
-					double acumulado = sc.nextDouble();
+					System.out.println("Introduce un número a guardar");
+					double acumulado = sc_r.nextDouble();
 
-					if (acumulado < 0) {
-						System.out.println("No se permiten nÃºmeros negativos");
-					} else {
-						double restaAcumulada = resta.restarAcumulado(acumulado);
-						System.out.println("El nÃºmero guardado es: " + restaAcumulada);
-					}
 
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 				break;
@@ -224,7 +200,7 @@ public class Main {
 
 		case "m": {
 			System.out.println(
-					"Elige la operacion que vas a realizar:\n-Multiplicar dos numeros decimales(pulsa 1)\n-Multiplicar tres numeros decimales(pulsa 2)\n-Multiplicar dos numeros enteros(pulsa 3)\n-Mostrar la potencia de un nÃºmero(pulsa 4)");
+					"Elige la operación que vas a realizar:\n-Multiplicar dos números decimales(pulsa 1)\n-Multiplicar tres números decimales(pulsa 2)\n-Multiplicar dos numeros enteros(pulsa 3)\n-Mostrar la potencia de un número(pulsa 4)");
 
 			Scanner sc_m = new Scanner(System.in);
 			int opm = sc_m.nextInt();
@@ -232,16 +208,16 @@ public class Main {
 
 			case 1: {
 				try {
-					System.out.println("Introduce primer numero real a multiplicar (n1)");
+					System.out.println("Introduce primer número real a multiplicar (n1)");
 					double n1 = sc_m.nextDouble();
-					System.out.println("Introduce segundo numero real multiplicar (n2)");
+					System.out.println("Introduce segundo número real multiplicar (n2)");
 					double n2 = sc_m.nextDouble();
 					double resultado = Producto.producto(n1, n2);
-					System.out.println("El resultado de la operacion es " + resultado);
+					System.out.println("El resultado de la operación es " + resultado);
 				}
 
 				catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 			}
@@ -249,16 +225,16 @@ public class Main {
 
 			case 2: {
 				try {
-					System.out.println("Introduce primer numero entero a multiplicar (n1)");
+					System.out.println("Introduce primer número entero a multiplicar (n1)");
 					int n1 = sc_m.nextInt();
-					System.out.println("Introduce segundo numero entero multiplicar (n2)");
+					System.out.println("Introduce segundo número entero multiplicar (n2)");
 					int n2 = sc_m.nextInt();
 					int resultado = Producto.producto(n1, n2);
-					System.out.println("El resultado de la operacion es " + resultado);
+					System.out.println("El resultado de la operación es " + resultado);
 				}
 
 				catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 			}
@@ -267,17 +243,17 @@ public class Main {
 			case 3: {
 
 				try {
-					System.out.println("Introduce primer numero real a multiplicar (n1)");
+					System.out.println("Introduce primer número real a multiplicar (n1)");
 					double n1 = sc_m.nextDouble();
-					System.out.println("Introduce segundo numero real a multiplicar (n2)");
+					System.out.println("Introduce segundo número real a multiplicar (n2)");
 					double n2 = sc_m.nextDouble();
-					System.out.println("Introduce tercer numero real a multiplicar (n3)");
+					System.out.println("Introduce tercer número real a multiplicar (n3)");
 					double n3 = sc_m.nextDouble();
 					double resultado = Producto.producto(n1, n2, n3);
-					System.out.println("El resultado de la operacion es " + resultado);
+					System.out.println("El resultado de la operación es " + resultado);
 
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 
 				}
 
@@ -297,7 +273,7 @@ public class Main {
 				}
 
 				catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 				break;
@@ -309,7 +285,7 @@ public class Main {
 
 		case "d": {
 			System.out.println(
-					"Elige la operaciÃ³n que vas a realizar:\n-Dividir dos numeros reales(pulsa 1)\n-Dividir dos nÃºmeros enteros(pulsa 2)\n-Calcula el inverso de un nÃºmero real(pulsa 3)\n-Calcula la raÃ­z cuadrada de un nÃºmero(pulsa 4)");
+					"Elige la operación que vas a realizar:\n-Dividir dos numeros reales(pulsa 1)\n-Dividir dos números enteros(pulsa 2)\n-Calcula el inverso de un número real(pulsa 3)\n-Calcula la raíz cuadrada de un número(pulsa 4)");
 
 			Scanner sc_d = new Scanner(System.in);
 			int opm = sc_d.nextInt();
@@ -317,16 +293,16 @@ public class Main {
 
 			case 1: {
 				try {
-					System.out.println("Introduce el dividendo - nÃºmero real - (n1)");
+					System.out.println("Introduce el dividendo - número real - (n1)");
 					double n1 = sc_d.nextDouble();
-					System.out.println("Introduce el divisor - nÃºmero real-  (n2)");
+					System.out.println("Introduce el divisor - número real-  (n2)");
 					double n2 = sc_d.nextDouble();
 					double resultado = Cociente.cociente(n1, n2);
-					System.out.println("El resultado de la operacion es " + resultado);
+					System.out.println("El resultado de la operación es " + resultado);
 				}
 
 				catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 			}
@@ -334,16 +310,16 @@ public class Main {
 
 			case 2: {
 				try {
-					System.out.println("Introduce el dividendo - nÃºmero entero - (n1)");
+					System.out.println("Introduce el dividendo - número entero - (n1)");
 					int n1 = sc_d.nextInt();
-					System.out.println("Introduce el divisor- nÃºmero entero - (n2)");
+					System.out.println("Introduce el divisor- número entero - (n2)");
 					int n2 = sc_d.nextInt();
 					int resultado = Cociente.cociente(n1, n2);
-					System.out.println("El resultado de la operacion es " + resultado);
+					System.out.println("El resultado de la operación es " + resultado);
 				}
 
 				catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 			}
@@ -352,13 +328,13 @@ public class Main {
 			case 3: {
 
 				try {
-					System.out.println("Introduce el nÃºmero real (n1)");
+					System.out.println("Introduce el número real (n1)");
 					double n1 = sc_d.nextDouble();
 					double resultado = Cociente.inverso(n1);
-					System.out.println("El resultado de la operacion es " + resultado);
+					System.out.println("El resultado de la operación es " + resultado);
 
 				} catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 
 				}
 
@@ -369,14 +345,14 @@ public class Main {
 			case 4: {
 
 				try {
-					System.out.println("Introduce el nÃºmero real (n1)");
+					System.out.println("Introduce el número real (n1)");
 					double n1 = sc_d.nextDouble();
 					double resultado = Cociente.raiz(n1);
-					System.out.println("El resultado de la operacion es " + resultado);
+					System.out.println("El resultado de la operación es " + resultado);
 				}
 
 				catch (Exception e) {
-					System.out.println("Error en el nÃºmero");
+					System.out.println("Error en el número");
 				}
 
 				break;

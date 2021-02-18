@@ -8,8 +8,8 @@ package calculadora;
  * @since 07/02/2021
  * @version 2.0
  * @see resta
- * @see producto
- * @see cociente
+ * @see Producto
+ * @see Cociente
  */
 public class Suma {
 	
@@ -22,11 +22,11 @@ public class Suma {
 	 * <br>Si n1 o n2 es un número negativo devuelve que no se permiten negativos.
 	 * @param n1 es el primer número real que se va a sumar
 	 * @param n2 es el segundo número real que se va a sumar
-	 * @return 
+	 * @return la suma de los números reales n1 y n2
 	 */
 	public static double sumar(double n1,double n2){
 		if (n1 < 0 || n2 < 0) 
-			System.out.println("No se permiten nÃºmeros negativos");
+			System.out.println("No se permiten números negativos");
 		else {
 			return sumaR= n1 + n2;
 		}
@@ -42,7 +42,7 @@ public class Suma {
 	 */
 	public static double Suma(int n1,int n2){
 		if (n1 < 0 || n2 < 0) 
-			System.out.println("No se permiten nÃºmeros negativos");
+			System.out.println("No se permiten números negativos");
 		else {
 			return sumaE= n1 + n2;
 		}
@@ -59,7 +59,7 @@ public class Suma {
 	 */
 	public static double sumar(double n1,double n2,double n3){
 		if (n1 < 0 || n2 < 0) 
-			System.out.println("No se permiten nÃºmeros negativos");
+			System.out.println("No se permiten números negativos");
 		else 
 			return sumaR = n1 + n2 + n3;
 		return sumaR;
@@ -68,13 +68,12 @@ public class Suma {
 	/**
 	 * Este método acumula un resultado.<br>Casos especiales:
 	 * <br>Si n1 es un número negativo devuelve que no se permiten negativos.
-	 * @param n1 represente un acumulado, pero no retorna nada.
-	 * @return 
+	 * @return la suma acumulada.
 	 */
 	public static double sumarAcumulado(double numAcum){
 
 		if (numAcum < 0) 
-			System.out.println("No se permiten nÃºmeros negativos");
+			System.out.println("No se permiten números negativos");
 		else 
 			return numAcum;
 		return numAcum;
