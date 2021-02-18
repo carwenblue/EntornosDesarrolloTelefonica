@@ -21,6 +21,9 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		String paso = "si";
+		do {
 
 		System.out.println(
 				"--Bienvenido a la aplicacion calculadora--\n *Elige una opcion:\n\t-Sumar (pulsa tecla S)\n\t-Restar (pulsa tecla R)\n\t-Multiplicar (pulsa tecla M)\n\t-Dividir (pulsa tecla D)");
@@ -379,10 +382,16 @@ public class Main {
 				break;
 			}
 			}
-
 		}
 		}
-
+		
+		System.out.println("");
+		System.out.println("¿Quieres seguir realizando operaciones?(si/no)");
+		paso = op.next();
+		
+		}while(paso.equalsIgnoreCase("si"));
+		
+		
+		System.out.println("Gracias por usar esta aplicación");
 	}
-
 }
