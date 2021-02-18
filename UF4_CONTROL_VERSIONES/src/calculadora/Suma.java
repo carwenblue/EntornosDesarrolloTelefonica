@@ -22,10 +22,16 @@ public class Suma {
 	 * <br>Si n1 o n2 es un número negativo devuelve que no se permiten negativos.
 	 * @param n1 es el primer número real que se va a sumar
 	 * @param n2 es el segundo número real que se va a sumar
-	 * @return devuelve la suma de los dos numeros reales
+	 * @return 
 	 */
 	public static double sumar(double n1,double n2){
-		return sumaR = n1 + n2;
+		if (n1 < 0 || n2 < 0) 
+			System.out.println("No se permiten nÃºmeros negativos");
+		else {
+			return sumaR= n1 + n2;
+		}
+		return sumaR;
+		
 	}
 	/**
 	 * Este método suma dos numeros enteros.<br>Casos especiales:
@@ -35,7 +41,13 @@ public class Suma {
 	 * @return la suma de ambos numeros, puede ser <u>negativo</u> si n1 mayor n2
 	 */
 	public static double Suma(int n1,int n2){
-		return n1 + n2;
+		if (n1 < 0 || n2 < 0) 
+			System.out.println("No se permiten nÃºmeros negativos");
+		else {
+			return sumaE= n1 + n2;
+		}
+		return sumaE;
+		
 	}
 	/**
 	 * Este método suma tres numeros Reales.<br>Casos especiales:
@@ -46,16 +58,27 @@ public class Suma {
 	 * @return la suma de los tres números reales
 	 */
 	public static double sumar(double n1,double n2,double n3){
+		if (n1 < 0 || n2 < 0) 
+			System.out.println("No se permiten nÃºmeros negativos");
+		else 
+			return sumaR = n1 + n2 + n3;
+		return sumaR;
 		
-		return sumaR = n1 + n2 + n3;
 	}
 	/**
 	 * Este método acumula un resultado.<br>Casos especiales:
 	 * <br>Si n1 es un número negativo devuelve que no se permiten negativos.
 	 * @param n1 represente un acumulado, pero no retorna nada.
+	 * @return 
 	 */
 	public static double sumarAcumulado(double numAcum){
+
+		if (numAcum < 0) 
+			System.out.println("No se permiten nÃºmeros negativos");
+		else 
+			return numAcum;
 		return numAcum;
+		
 	}
 
 

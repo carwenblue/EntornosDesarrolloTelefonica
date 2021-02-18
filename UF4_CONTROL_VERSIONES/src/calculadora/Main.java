@@ -45,13 +45,9 @@ public class Main {
 					double n1 = sc.nextDouble();
 					System.out.println("Introduce segundo numero a sumar (n2)");
 					double n2 = sc.nextDouble();
-
-					if (n1 < 0 || n2 < 0) {
-						System.out.println("No se permiten números negativos");
-					} else {
-						double resultado_2d = Suma.sumar(n1, n2);
-						System.out.println("El resultado de la operacion es " + resultado_2d);
-					}
+					double resultado_2d = Suma.sumar(n1, n2);
+					System.out.println("El resultado de la operacion es " + resultado_2d);
+					
 
 				} catch (Exception e) {
 					System.out.println("Error en el número");
@@ -68,13 +64,10 @@ public class Main {
 					double n2 = sc.nextDouble();
 					System.out.println("Introduce tercer numero a sumar (n3)");
 					double n3 = sc.nextDouble();
+					double resultado_3d = Suma.sumar(n1, n2, n3);
+					System.out.println("El resultado de la operacion es " + resultado_3d);
 
-					if (n1 < 0 || n2 < 0) {
-						System.out.println("No se permiten números negativos");
-					} else {
-						double resultado_3d = Suma.sumar(n1, n2, n3);
-						System.out.println("El resultado de la operacion es " + resultado_3d);
-					}
+					
 
 				} catch (Exception e) {
 					System.out.println("Error en el número");
@@ -92,13 +85,10 @@ public class Main {
 					double n1 = sc.nextDouble();
 					System.out.println("Introduce segundo numero a sumar (n2)");
 					double n2 = sc.nextDouble();
+					double resultado_2e = Suma.sumar(n1, n2);
+					System.out.println("El resultado de la operacion es " + resultado_2e);
 
-					if (n1 < 0) {
-						System.out.println("No se permiten números negativos");
-					} else {
-						double resultado_2e = Suma.sumar(n1, n2);
-						System.out.println("El resultado de la operacion es " + resultado_2e);
-					}
+					
 
 				} catch (Exception e) {
 					System.out.println("Error en el número");
@@ -112,13 +102,8 @@ public class Main {
 				try {
 					System.out.println("Introduce un numero a guardar");
 					double numAcum = sc.nextDouble();
-
-					if (numAcum < 0) {
-						System.out.println("No se permiten números negativos");
-					} else {
-						double sumaAcumulada = Suma.sumarAcumulado(numAcum);
-						System.out.println("El número guardado es: " + sumaAcumulada);
-					}
+					double sumaAcumulada = Suma.sumarAcumulado(numAcum);
+					System.out.println("El número guardado es: " + sumaAcumulada);
 
 				} catch (Exception e) {
 					System.out.println("Error en el número");
@@ -129,6 +114,7 @@ public class Main {
 			}
 			}
 		}
+		break;
 
 		case "r": {
 
@@ -231,6 +217,7 @@ public class Main {
 			}
 			}
 		}
+		break;
 
 		case "m": {
 			System.out.println(
@@ -315,6 +302,7 @@ public class Main {
 			}
 			}
 		}
+		break;
 
 		case "d": {
 			System.out.println(
