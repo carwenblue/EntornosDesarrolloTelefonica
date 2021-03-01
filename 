@@ -1,0 +1,261 @@
+[33mcommit 5b7e526d98f6763b1821d8d2e7e3a39ccc26897f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Verónica <vbonismartin@gmail.com>
+Date:   Sun Feb 28 20:17:26 2021 +0100
+
+    Pruebas con Junit
+
+[33mcommit b9f9c67796554b20b2b155e97579773bd698e89f[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Fri Feb 19 00:30:41 2021 +0100
+
+    Delete UF4ENTORNOS_DESARROLLO.docx
+
+[33mcommit 507b9026986eb996f649e5ed027b8e50330bd50d[m
+Author: Verónica <vbonismartin@gmail.com>
+Date:   Fri Feb 19 00:26:22 2021 +0100
+
+    Versión final v 2.2
+
+[33mcommit 35a45d128c97e71c19ef05ee9b5ee34487314c5d[m
+Author: CarmenC <78502038+carwenblue@users.noreply.github.com>
+Date:   Thu Feb 18 19:45:34 2021 +0100
+
+    Delete UF4_CONTROL_VERSIONES.zip
+
+[33mcommit 908a49e7a33a3183a22814ff9099607de08c7c46[m
+Author: CARWENC <carwenblue@gmail.com>
+Date:   Thu Feb 18 19:43:38 2021 +0100
+
+    main con do while
+
+[33mcommit a02f08996a978010a703f744b8348653ceafaf43[m
+Author: CarmenC <78502038+carwenblue@users.noreply.github.com>
+Date:   Thu Feb 18 11:35:11 2021 +0100
+
+    Delete Enunciado_Act_Control_Versiones.txt
+
+[33mcommit 5dd1d0eb148da061e0b6e3633e15472589974cce[m
+Author: CARWENC <carwenblue@gmail.com>
+Date:   Thu Feb 18 11:33:59 2021 +0100
+
+    actualización de parte suma
+
+[33mcommit 0be7a1c643627ea11bdbd7a4c92dc1fca4525ce3[m
+Author: CARWENC <carwenblue@gmail.com>
+Date:   Thu Feb 18 11:02:18 2021 +0100
+
+    actualización de main y suma con if en suma
+
+[33mcommit 8ceed79fc1c9b9e067f11af9002f15bfb25d7dde[m
+Author: dan <danderio112233@gmail.com>
+Date:   Thu Feb 18 10:52:17 2021 +0100
+
+     Añado parte en Documento
+
+[33mcommit 298a4a21f46b8e9deb96f2d5e51dd093b1b7ecec[m
+Merge: 7497b79 52e139e
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Thu Feb 18 09:46:18 2021 +0100
+
+    Merge pull request #3 from carwenblue/VeroB
+    
+     Documento WORD 2a version
+
+[33mcommit 52e139e8e576b6eaa805688d87c3ef9376b99784[m
+Author: VeroB <vbonismartin@gmail.com>
+Date:   Thu Feb 18 09:45:23 2021 +0100
+
+     Documento WORD 2a version
+
+[33mcommit 7497b79e261f8146077639d3d9e4ecf17b71cc41[m
+Merge: c19ebdd 128e809
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Thu Feb 18 09:13:59 2021 +0100
+
+    Merge pull request #2 from carwenblue/VeroB
+    
+    Documento Word Actividad 2
+
+[33mcommit 128e809e867e033403137448e5e71173c49bfd9e[m
+Author: VeroB <vbonismartin@gmail.com>
+Date:   Thu Feb 18 09:12:15 2021 +0100
+
+    Documento Word Actividad 2
+
+[33mcommit c19ebdd01e59835c5f96daeb4c3e3d038c816ef6[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 22:46:48 2021 +0100
+
+    Rename readme.txt to readme.md
+
+[33mcommit dbaaed48ce4295ef147d11a59ba8b2694d3c7f72[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 22:39:58 2021 +0100
+
+    Update Enunciado_Act_Control_Versiones.txt
+
+[33mcommit 4f633ed9619f4a1cbaec524ae57cd727f038b1d5[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 22:25:12 2021 +0100
+
+    Update readme.txt
+
+[33mcommit 19c85c087bfb265299b522afced05b7eb273bb19[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 22:19:35 2021 +0100
+
+    Delete resta.java
+
+[33mcommit 51863980d2545f739b7e39f56654ebadb2d73762[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 22:18:09 2021 +0100
+
+    Delete Main.java
+
+[33mcommit ecfe123d790e0a08c18476986f89ce21cf2dc540[m
+Author: JRVaro <75578912+JRVaro@users.noreply.github.com>
+Date:   Wed Feb 17 22:12:14 2021 +0100
+
+    Update Main.java
+
+[33mcommit b37b3b5e6316a07130cc5bd3551c728904524c95[m
+Author: JRVaro <75578912+JRVaro@users.noreply.github.com>
+Date:   Wed Feb 17 22:09:27 2021 +0100
+
+    Update resta.java
+
+[33mcommit 7b8021e8a8f99062300012a53232cfd5f0d1e18a[m
+Author: CarmenC <78502038+carwenblue@users.noreply.github.com>
+Date:   Wed Feb 17 20:07:59 2021 +0100
+
+    Delete .project
+
+[33mcommit bde7ce1439428384c15a6b059950cefdd99c1f48[m
+Author: CarmenC <78502038+carwenblue@users.noreply.github.com>
+Date:   Wed Feb 17 20:07:42 2021 +0100
+
+    Delete .classpath
+
+[33mcommit 28227dd29052963cd48add612ff18bb41121da00[m
+Author: CarmenC <78502038+carwenblue@users.noreply.github.com>
+Date:   Wed Feb 17 20:06:35 2021 +0100
+
+    Delete UF4_CONTROL_VERSIONES/.settings directory
+
+[33mcommit ba93b17056c66987275bade5b544c51b5b989a64[m
+Author: CarmenC <78502038+carwenblue@users.noreply.github.com>
+Date:   Wed Feb 17 20:05:56 2021 +0100
+
+    Delete UF4_CONTROL_VERSIONES/bin/calculadora directory
+
+[33mcommit ae613baecc586a44ebf93315a02aec2dfecc4e25[m
+Author: CarmenC <78502038+carwenblue@users.noreply.github.com>
+Date:   Wed Feb 17 20:05:04 2021 +0100
+
+    Delete UF4_CONTROL_VERSIONES/UF4_CONTROL_VERSIONES/src/calculadora directory
+
+[33mcommit 9a236297930f4d651448d0bedce7dc777e068609[m
+Author: CarmenC <78502038+carwenblue@users.noreply.github.com>
+Date:   Wed Feb 17 20:01:51 2021 +0100
+
+    Delete UF2_ACT1 directory
+
+[33mcommit 09ff9b32f62beea5e9802d27bff0b98a34f3002d[m
+Author: CarmenC <78502038+carwenblue@users.noreply.github.com>
+Date:   Wed Feb 17 20:00:01 2021 +0100
+
+    Delete T.CALCULADORA directory
+
+[33mcommit dca890f7267c722771566abbd1fdfa4008378a65[m
+Merge: facf636 5c074e1
+Author: JRVaro <juanramonvaro@gmail.com>
+Date:   Wed Feb 17 19:55:48 2021 +0100
+
+    Merge branch 'master' of https://github.com/carwenblue/EntornosDesarrolloTelefonica
+
+[33mcommit facf636668a5bf0d6b8b2e8ab334a8e480ea9771[m
+Author: JRVaro <juanramonvaro@gmail.com>
+Date:   Wed Feb 17 19:53:44 2021 +0100
+
+    Main y clase resta 17/2/21
+
+[33mcommit 5c074e157c8c9b4ae50bdf3fb14766464ee5f8b3[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 19:15:02 2021 +0100
+
+    Update readme.txt
+
+[33mcommit 022e2921884226bf501978bd669abc5edc3286d9[m
+Merge: e95d9d9 152ca10
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 15:07:41 2021 +0100
+
+    Merge pull request #1 from carwenblue/VeroB
+    
+    Vero b
+
+[33mcommit 152ca106b184978236d0b6d55e6237751d71a2df[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 14:33:07 2021 +0100
+
+    Delete resta.class
+
+[33mcommit 526cea1281c10e626aad1ce5a3f8ccf836fe989a[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 14:32:59 2021 +0100
+
+    Delete Suma.class
+
+[33mcommit 0c9c9672ef6f70e11c1dbab567a544722daacdbc[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 14:32:49 2021 +0100
+
+    Delete Producto.class
+
+[33mcommit c500b9f882833ca454784e2abf7a406176255e02[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 14:32:40 2021 +0100
+
+    Delete Main.class
+
+[33mcommit 4c0fa51b9258d5e5eda8981fe81b77af5ef562ee[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 14:32:29 2021 +0100
+
+    Delete Cociente.class
+
+[33mcommit 26f45e6ae6bb3c5d8a99a5b31c7533303d609607[m
+Author: VeroB <vbonismartin@gmail.com>
+Date:   Wed Feb 17 14:00:17 2021 +0100
+
+    Valores default en switch
+
+[33mcommit e95d9d94ddc42c129f37d262cddcecade0afddcd[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 11:42:38 2021 +0100
+
+    Delete resta.class
+
+[33mcommit c700d3ced45c5ee62351a8207a8544fa73a933d3[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 11:42:30 2021 +0100
+
+    Delete Suma.class
+
+[33mcommit 949d462cf4236aa6ea8dec43c348f21d190fde56[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 11:42:23 2021 +0100
+
+    Delete Producto.class
+
+[33mcommit 07364a2afdfee74d2a0e9a05d12272fec44cd674[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 11:42:07 2021 +0100
+
+    Delete Main.class
+
+[33mcommit 196493c8ca07248a384fbfeddaf050c5a708b58d[m
+Author: Verónica Bonis <56402927+verobm@users.noreply.github.com>
+Date:   Wed Feb 17 11:41:58 2021 +0100
+
+    D
