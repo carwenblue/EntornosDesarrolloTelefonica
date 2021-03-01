@@ -1,17 +1,12 @@
-package pruebas;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Assert;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import calculadora.Cociente;
 import calculadora.Producto;
-import calculadora.Suma;
-import calculadora.resta;
-
 /**
  * Esta clase corresponde a las pruebas unitarias del bloque 3, referente al
  * producto del ejercicio 1 de Entornos de desarrollo. Trabajo en grupo
@@ -80,9 +75,9 @@ class TestProducto {
 	@Test
 	void testProducto1() {
 		System.out.println("1_1: Test de producto con dos números reales");
-		Assert.assertEquals(10.0, Producto.producto(5.0, 2.0), 0);
+		assertEquals(10.0, Producto.producto(5.0, 2.0), 0);
 		System.out.println("1_2: Test de producto con dos números reales -alguno negativo-");
-		Assert.assertEquals(-10.0, Producto.producto(5.0, -2.0), 0);
+		assertEquals(-10.0, Producto.producto(5.0, -2.0), 0);
 	}
 
 
@@ -100,9 +95,9 @@ class TestProducto {
 	@Test
 	void testProducto2() {
 		System.out.println("2_1: Test de producto con dos números enteros");
-		Assert.assertEquals(10, Producto.producto(5, 2));
+		assertEquals(10, Producto.producto(5, 2));
 		System.out.println("2_2: Test de producto con dos números enteros- alguno negativo -");
-		Assert.assertEquals(-10, Producto.producto(5, -2));
+		assertEquals(-10, Producto.producto(5, -2));
 	}
 
 
@@ -118,9 +113,9 @@ class TestProducto {
 	@Test
 	void testProducto3() {
 		System.out.println("3_1: Test de producto con tres números reales");
-		Assert.assertEquals(20.0, Producto.producto(5.0, 2.0, 2.0), 0);
+		assertEquals(20.0, Producto.producto(5.0, 2.0, 2.0), 0);
 		System.out.println("3_2: Test de producto con tres números reales -alguno negativo-");
-		Assert.assertEquals(-20.0, Producto.producto(5.0, -2.0, 2.0), 0);
+		assertEquals(-20.0, Producto.producto(5.0, -2.0, 2.0), 0);
 	}
 
 
@@ -138,16 +133,15 @@ class TestProducto {
 	@Test
 	void testPotencia4() {
 		System.out.println("4_1: Test de cálculo de la potencia de dos números cualquiera");
-		Assert.assertEquals(25, Producto.potencia(5, 2), 0);
+		assertEquals(25, Producto.potencia(5, 2), 0);
 		System.out.println("4_2: Test de cálculo de la potencia en el caso en que el exponente sea negativo");
-		Assert.assertEquals(1, Producto.potencia(5, -2), 0);
+		assertEquals(1, Producto.potencia(5, -2), 0);
 		System.out.println("4_3: Test de cálculo de la potencia en el caso en que la potencia sea cero");
-		Assert.assertEquals(1, Producto.potencia(5, 0), 0);
+		assertEquals(1, Producto.potencia(5, 0), 0);
 		System.out.println("4_4: Test de cálculo de la potencia en el caso en que la base es uno");
-		Assert.assertEquals(1, Producto.potencia(1, 2), 0);
+		assertEquals(1, Producto.potencia(1, 2), 0);
 
 	}
 	
-	
-	
+
 }

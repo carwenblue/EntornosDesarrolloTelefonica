@@ -17,11 +17,9 @@ import java.util.Scanner;
  * @see Cociente
  * 
  */
-
-public class Main {
+public class main {
 
 	public static void main(String[] args) {
-		
 		String paso = "si";
 		do {
 
@@ -369,5 +367,8 @@ public class Main {
 		
 		
 		System.out.println("Gracias por usar esta aplicación");
+		
+
 	}
+
 }

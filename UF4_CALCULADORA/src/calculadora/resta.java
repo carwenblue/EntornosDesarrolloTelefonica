@@ -12,7 +12,7 @@ package calculadora;
  * @see Cociente
  */
 
-public class resta {
+public class Resta {
 	
 	
 	static double totalAcumulado, resRestaReal;
@@ -51,7 +51,7 @@ public class resta {
 		if (n1 < 0) 
 			System.out.println("No se permiten números negativos");
 		else {
-			double resRestaEntera = resta.restar(n1, n2);
+			double resRestaEntera = Resta.restar(n1, n2);
 			System.out.println("El resultado de la resta es " + resRestaEntera);
 		}
 		
@@ -72,7 +72,7 @@ public class resta {
 		if (n1 < 0 || n2 < 0) {
 			System.out.println("No se permiten números negativos");
 		} else {
-			double resRestaReal3digit = resta.restar(n1, n2, n3);
+			double resRestaReal3digit = Resta.restar(n1, n2, n3);
 			System.out.println("El resultado de la resta es " + resRestaReal3digit);
 		}
 		
@@ -90,7 +90,7 @@ public class resta {
 		if (totalAcumulado < 0) {
 			System.out.println("No se permiten números negativos");
 		} else {
-			double restaAcumulada = resta.restarAcumulado(totalAcumulado);
+			double restaAcumulada = Resta.restarAcumulado(totalAcumulado);
 			System.out.println("El número guardado es: " + restaAcumulada);
 		}
 		
