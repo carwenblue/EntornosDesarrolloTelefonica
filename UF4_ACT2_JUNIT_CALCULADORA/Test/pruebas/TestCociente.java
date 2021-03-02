@@ -1,3 +1,4 @@
+package pruebas;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -80,8 +81,10 @@ class TestCociente {
 		System.out.println("1_2: Test de cociente con n1 0");
 		assertEquals(0.0, Cociente.cociente(0.0, 2.0), 0);
 		System.out.println("1_2: Test de cociente con n2 0");
-		assertEquals("no se permite 0", Cociente.cociente(8.0, 0.0));
-	}
+		assertEquals(Double.POSITIVE_INFINITY, Cociente.cociente(8.0, 0.0));
+
+		}
+	
 	/**
 	 * Este método es una prueba unitaria para el cociente de dos números
 	 * enteros.
@@ -112,10 +115,24 @@ class TestCociente {
 	@Test
 	void testCociente3() {
 		System.out.println("3_1: Test de inverso");
-		assertEquals(-5.0, Cociente.inverso(5.0));
+		assertEquals(0.1, Cociente.inverso(10.0));
 		System.out.println("3_2: Test de inverso siendo n1 igual a 0");
-		assertEquals("No se permite 0", 0.0);
+		assertEquals(Double.POSITIVE_INFINITY, Cociente.inverso(0));
+		
 	}
-
+	/**
+     * Este método es una prueba unitaria para el cálculo de la raíz de un número.
+     * 
+     * <br>Probamos que el método funciona correctamente con un número real
+     * cualquiera distinto de 0 (100).
+     * <br>Si n1 es 0, el resultado es 0.
+     */
+    @Test
+    void testCociente4() {
+        System.out.println("4_1: Test de raíz");
+        assertEquals(10, Cociente.raiz(100));
+        System.out.println("4_2: Test de raíz siendo n1 igual a 0");
+        assertEquals(0, 0);
+    }
 
 }
